@@ -1,2 +1,2 @@
 # cv
-an ordinary cv
+some cv

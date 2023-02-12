@@ -1,29 +1,30 @@
 html{
-  margin: 40px;
+  margin: 60px;
   padding: 40px;
 }
 body {
-  font-family: 'Handlee', cursive;
+  font-family: 'Handlee', Cursive;
    background-color: #3fa5bf;
-   font-size: 13pt;
+   font-size: 33pt;
    padding: 30px;
    margin: 0;
+   font-style: center;
    }
-   .center {
+   .section {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
    h1{
-    font-size: 45px;
-    color:#05000f;
-    text-align: left;
+    font-size: 65px;
+    color:#264bdf;
+    text-align: center;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
    }
    h1 span{
-    border: 4px dashed #03000a;
+    border: 4px dashed #541add;
     padding: 10px;
    }
    .img-circle {
@@ -39,4 +40,6 @@ body {
           }
 h3 {
   color: #395B64;
+  font-size: 85px;
+  text-align: center;
 }

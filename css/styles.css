@@ -1,45 +1,122 @@
-html{
-  margin: 60px;
-  padding: 40px;
+html {
+  margin: 40px;/* idem ca mai jos*/
+  padding: 40px; /* neaparat de diminuat paddingul: de la 40 la 10px  */
 }
+.section {
+  display: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  text-align: center;
+ } 
 body {
-  font-family: 'Handlee', Cursive;
-   background-color: #3fa5bf;
-   font-size: 26pt;
-   padding: 30px;
-   margin: 0;
-   font-style: center;
-   }
-   .section {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
+  font-family: Handlee, cursive;
+  background-color: #3fa5bf;
+  font-size: 18pt;
+  padding: 0px;
+  margin: 100px;
+  outline: 70px;
   }
-   h1{
-    font-size: 65px;
-    color:#264bdf;
+ .quote {
+    font-size: 22pt;
     text-align: center;
-    padding: 18px 0 18px 0;
-    margin: 0 0 10px 0;
-   }
-   h1 span{
-    border: 4px dashed #541add;
-    padding: 10px;
-   }
-   .img-circle {
-    border: 3px solid rgb(146, 220, 233);
+    margin-top: 10px;
+  }
+ h1 {
+    font-size: 40pt;
+    color: #0c0009d5;
+    text-align: center;
+    padding: 5px 20px 5px 10px;
+    margin: 10px 0px 10px 0px;
+ }
+ .img-circle {
+    border: 4px solid rgb(146, 220, 233);
     border-radius: 50%;
-   }
-   hr {
+    display:  left;
+    float: left;
+ }
+ h3 {
+    color: #346370;
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    padding: 0px;
+    margin: 8px;
+    text-align: center;
+ }
+ ul {
+    list-style: square, outside;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  li {
+      margin-bottom: 10px;
+      font-weight: bold;
+      display: inside;
+      margin-left: 10px;
+       }
+ table, th, td {
+    border-collapse: 70px;
+    text-align: center;
+    border: 45px, solid #395B64;
+    text-shadow: #91d3e6;
+    vertical-align: center;
+ }
+    th {
+      background-color: #b0c5cf;
+      border: 30px, solid #395B64;
+    }
+    hr {
      border-style: none;
      border-top-style: dotted;
      border-color: rgb(93, 8, 163);
-     border-width: 5px;
-     width: 5%;
-          }
-h3 {
-  color: #395B64;
-  font-size: 85px;
-  text-align: center;
+     border-width: 15px;
+     width: 20%;
+  }
+a {
+outline: none;
+text-decoration: none;
+display: inline-block;
+margin-left: 0%;
+text-align: center;
+padding: 30px;
+box-sizing: border-box;
+width:50%;
+color: rgb(112, 112, 121);/* de bagat gri aici */
+background-color: rgb(144, 223, 236);
+}
+a:hover {
+background-color: rgb(88, 88, 199);
+}
+input[type='text'], input[type='email'] {
+  border:3px solid rgb(34, 0, 128);
+  width:100%;
+  padding: 5px;
+  color: rgb(19, 0, 128);
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+  color:rgb(49, 0, 128);
+}
+input[type='button'] {
+  background-color: rgb(0, 9, 128);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-weight: bold;
+  color: white;
+}
+form {
+  display: flex;
+}
+.copyright {
+  font-size: 20pt;
+  text-align: right;
+  padding-bottom: 10px;
+  color: grey;
 }

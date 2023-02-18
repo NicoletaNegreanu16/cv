@@ -11,8 +11,7 @@ display: inline;
 }
 body {
   font-family: Handlee, cursive;
-  background-image: url("https://github.com/NicoletaNegreanu16/cv/blob/main/catel.jpg");
-  background-position: fixed;
+  background-color: #F5E9CF;
   height: 100%; 
   padding-right: 10px;
   padding-left: 10px;

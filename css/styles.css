@@ -11,8 +11,7 @@ display: inline;
 }
 body {
   font-family: Handlee, cursive;
-  background-image: url("catel.jpg");
-  background-position: fixed;
+  background-color: #F5E9CF;
   height: 100%; 
   padding-right: 10px;
   padding-left: 10px;
@@ -67,13 +66,13 @@ body {
     text-align: center;
     border: 15px, solid #9de2f5;
     margin-left: 2px;
-    width: 100%;
+    width: 90%;
     font-size: 20px;
     color:rgb(122, 210, 225);
    }
    .table1 {
     margin-left: 100px;
-    width: 713px;
+    width: 600px;
     height: 309px;
     display: inline;
      }

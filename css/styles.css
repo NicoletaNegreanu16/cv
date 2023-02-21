@@ -5,7 +5,8 @@ margin-left: 0;
 margin-right: 0;
 display: flex;
 height: 100%;
-overflow: hiddden;
+overflow: hidden;
+width: 100%;  
 }
 #nume {
 text-align: center;
@@ -54,7 +55,7 @@ body {
    }
  h3 {
     color: #E96479;
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
     width: 100%;
     padding-left: 45px;
@@ -64,7 +65,7 @@ body {
     margin: 10px;
     text-align: center;
     width: 90%;
-    font-size: 30px;
+    font-size: 20px;
     color:#857db9;
  }
  ul {
@@ -72,7 +73,7 @@ body {
     margin: 10px;
     text-align: center;
     width: 90%;
-    font-size: 30px;
+    font-size: 20px;
     color:#897db9;
  }
   li {

@@ -86,7 +86,7 @@ body {
   li {
       margin-bottom: 10px;
       font-weight: bold;
-      display: inline;
+      display: block;
       margin-left: 10px;
        }
  table {

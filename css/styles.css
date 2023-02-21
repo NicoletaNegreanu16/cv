@@ -23,7 +23,6 @@ display: grid;
 place-content: center;
 position: relative;
 isolation: isolate;
-background-size: cover;
 background-repeat: repeat-y;
 }
 .background::after {

@@ -1,23 +1,28 @@
-body, html {
+html, body {
 margin-top: 0px;
 margin-bottom: 0px;
-margin-left: 0;
+margin-left: 0px;
 margin-right: 0;
-display: flex;
+padding-right: 0;
+display: grid;
 height: 100%;
-width: 100%;  
+width: 100%;
+overflow-x: hidden;
 }
 #nume {
 text-align: center;
 color:#705aec;
 }
 .subtitle {
-  text-align: center;
+  text-align: left;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 .background {
 display: grid;
 place-content: center;
 position: relative;
+isolation: isolate;
 }
 .background::after {
 content: '';
@@ -26,7 +31,7 @@ z-index: -1;
 inset: 0;
 color:rgb(134, 122, 225);
 opacity: 0.2;
-background-image: url("https://github.com/NicoletaNegreanu16/cv/blob/main/Image/catel.jpg?raw=true");
+background-image: url("C:/Users/aaa/Desktop/WEB DEVELOPMENT/HTML personal site/Image/catel.jpg");
 }
 body { 
   font-family: Handlee, cursive;
@@ -36,10 +41,10 @@ body {
   width: 100%;
   display: inline;
   color:rgb(62, 55, 255);
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 0;
   background-size: 100% 100%;
-}
+  }
  h1 {
     font-size: 35pt;
     color: #a70b80d5;
@@ -54,25 +59,28 @@ body {
    }
  h3 {
     color: #E96479;
-    font-size: 30px;
+    font-size: 35px;
     text-align: left;
     width: 100%;
-    padding-left: 45px;
+    padding-left: 40px;
   }
   p {
     padding: 0px 30px 0px 30px;
     margin: 10px;
     text-align: center;
     width: 90%;
-    font-size: 20px;
+    font-size: 35px;
     color:#857db9;
+ }
+ h4 {
+  font-size: 35px;
  }
  ul {
     padding: 0px 50px 0px 50px;
     margin: 10px;
     text-align: center;
-    width: 90%;
-    font-size: 20px;
+    width: auto;
+    font-size: 35px;
     color:#897db9;
  }
   li {
@@ -87,18 +95,21 @@ body {
     border: 15px, solid #9de2f5;
     margin-left: 80px;
     width: 90%;
-    font-size: 30px;
+    font-size: 35px;
     color:rgb(134, 122, 225);
    }
    .table1 {
     margin-left: 30px;
-    width: 700px;
-    height: 309px;
+    width: 100%;
+    height: 100%;
     display: inline;
+     }
+     td {
+      padding: 40px 20px 20px 30px;
      }
        th {
       background-color: #b0c5cf;
-      border: 35px, solid #395B64;
+      border: 30px, solid #395B64;
       color:rgb(0, 9, 128)
      }
     hr {
@@ -110,7 +121,7 @@ body {
   }
   ol {
     color:#E96479;
-    font-size: 20px;
+    font-size: 30px;
   }
 a {
 text-decoration: underline;
@@ -146,7 +157,9 @@ input[type='button'] {
   color: white;
 }
 form {
-  display: flex;
+  display: block;
+  padding-bottom: 40px;
+  font-size: 35px;
 }
 .copyright {
   font-size: 14pt;

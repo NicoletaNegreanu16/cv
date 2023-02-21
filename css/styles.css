@@ -23,6 +23,7 @@ display: grid;
 place-content: center;
 position: relative;
 isolation: isolate;
+background-size: auto;
 }
 .background::after {
 content: '';
@@ -32,7 +33,6 @@ inset: 0;
 color:rgb(134, 122, 225);
 opacity: 0.2;
 background-image: url("https://github.com/NicoletaNegreanu16/cv/blob/main/Image/catel.jpg?raw=true");
-background-size: 100% 100%;
 }
 body { 
   font-family: Handlee, cursive;

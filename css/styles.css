@@ -1,29 +1,45 @@
-html {
-display: block;
-margin: 3px 10px 3px 5px;
+body, html {
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0;
+margin-right: 0;
+display: flex;
+height: 100%;
+overflow: hiddden;
 }
 #nume {
 text-align: center;
-color:#4D455D;
+color:#705aec;
 }
 .subtitle {
   text-align: center;
 }
-
-div {
-display: block;
+.background {
+display: grid;
+place-content: center;
+position: relative;
+isolation: isolate;
 }
-body {
+.background::after {
+content: '';
+position: absolute;
+z-index: -1;
+inset: 0;
+color:rgb(134, 122, 225);
+opacity: 0.2;
+background-image: url("C:/Users/aaa/Desktop/WEB DEVELOPMENT/HTML personal site/Image/catel.jpg");
+}
+body { 
   font-family: Handlee, cursive;
-  background-color:antiquewhite;
-  background-position: fixed;
   height: 100%; 
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
   width: 100%;
   display: inline;
   color:rgb(62, 55, 255);
   font-size: 30px;
+  margin-top: 0;
+  background-size: 100% 100%;
 }
  h1 {
     font-size: 35pt;
@@ -50,7 +66,7 @@ body {
     text-align: center;
     width: 90%;
     font-size: 30px;
-    color:#7DB9B6;
+    color:#857db9;
  }
  ul {
     padding: 0px 50px 0px 50px;
@@ -58,7 +74,7 @@ body {
     text-align: center;
     width: 90%;
     font-size: 20px;
-    color:#7DB9B6;
+    color:#897db9;
  }
   li {
       margin-bottom: 10px;

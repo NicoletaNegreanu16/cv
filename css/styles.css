@@ -36,7 +36,7 @@ body {
   width: 100%;
   display: inline;
   color:rgb(62, 55, 255);
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 0;
   background-size: 100% 100%;
 }
@@ -72,7 +72,7 @@ body {
     margin: 10px;
     text-align: center;
     width: 90%;
-    font-size: 35px;
+    font-size: 30px;
     color:#897db9;
  }
   li {
@@ -110,7 +110,7 @@ body {
   }
   ol {
     color:#E96479;
-    font-size: 35px;
+    font-size: 30px;
   }
 a {
 text-decoration: underline;

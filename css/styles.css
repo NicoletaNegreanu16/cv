@@ -1,15 +1,14 @@
-html, body {
-margin-top: 0px;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0;
-padding-right: 0;
-display: grid;
-height: 100%;
-width: 100%;
-overflow-x: hidden;
-overflow-y: scroll;
+
+body {
+  background-image: url("path/to/image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
+
 #nume {
 text-align: center;
 color:#705aec;
